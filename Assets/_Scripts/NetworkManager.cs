@@ -29,7 +29,8 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         // Katılabilecek bir oda varsa katılır
         if (PhotonNetwork.CountOfRooms > 0)
             PhotonNetwork.JoinRandomRoom();
-       // Katılabilecek oda yoksa yeni bir oda kurar
+        
+        // Katılabilecek oda yoksa yeni bir oda kurar
         else
         {
             RoomOptions options = new RoomOptions();
