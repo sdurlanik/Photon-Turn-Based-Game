@@ -75,7 +75,7 @@ public class Menu : MonoBehaviourPunCallbacks
     {
         // player isimlerini ayarlar
         _player1NameText.text = PhotonNetwork.CurrentRoom.GetPlayer(1).NickName;
-        _player2NameText.text = PhotonNetwork.PlayerList.Length == 2 ? PhotonNetwork.CurrentRoom.GetPlayer(2).NickName : "...";
+        _player2NameText.text = PhotonNetwork.PlayerList.Length == 2 ? PhotonNetwork.CurrentRoom.GetPlayer(2).NickName : "waiting for player2";
 
         // game starting textini ayarlar
         if(PhotonNetwork.PlayerList.Length == 2)
@@ -93,6 +93,7 @@ public class Menu : MonoBehaviourPunCallbacks
         // lobbyde iki oyuncu bulunuyorsa game sahnesine geçiş yapar
         if(PhotonNetwork.PlayerList.Length == 2)
             NetworkManager.instance.photonView.RPC("ChangeScene", RpcTarget.All, "Game");
+        
         else _gameStartingText.gameObject.SetActive(false);
     }
 

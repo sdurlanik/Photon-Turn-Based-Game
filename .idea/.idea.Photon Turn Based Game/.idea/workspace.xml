@@ -10,7 +10,10 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/CursorSelector.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/GameUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/Unit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/Zenva/PhotonTurnBased-Complete-Project-2020-LTS/PhotonTurnBased/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

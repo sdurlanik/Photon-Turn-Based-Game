@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 530547599115127184}
   - component: {fileID: 6798761494510713065}
   m_Layer: 0
-  m_Name: Tank
+  m_Name: Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,19 +162,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4e946286039f6e4f93ef751cea74551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curHp: 15
-  maxHp: 15
-  moveSpeed: 2
-  minDamage: 5
-  maxDamage: 7
-  maxMoveDistance: 5
-  maxAttackDistance: 5
+  curHp: 10
+  maxHp: 10
+  moveSpeed: 4
+  minDamage: 3
+  maxDamage: 5
+  maxMoveDistance: 3
+  maxAttackDistance: 3
   usedThisTurn: 0
   _selectedVisual: {fileID: 3703548186902425969}
   _spriteVisual: {fileID: 3703548188096493005}
   _healthFillImage: {fileID: 3703548186960286152}
-  _leftPlayerSprite: {fileID: 21300000, guid: 19479c8ee1bcbe240a48669eecaa98fd, type: 3}
-  _rightPlayerSprite: {fileID: 21300000, guid: 6e54e3155d7c0784a8cbb577931cb0ad, type: 3}
+  _leftPlayerSprite: {fileID: 21300000, guid: c27594fa097c2e344a37d2d881bb0980, type: 3}
+  _rightPlayerSprite: {fileID: 21300000, guid: de8e9767ef4aa074199786ee412d2693, type: 3}
 --- !u!1 &3703548186902425969
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ SpriteRenderer:
   m_SortingLayerID: -256116407
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 19479c8ee1bcbe240a48669eecaa98fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c27594fa097c2e344a37d2d881bb0980, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
