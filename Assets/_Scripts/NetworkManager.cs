@@ -40,6 +40,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     }
 
     // Sahne geçişinde kullanılır
+    [PunRPC]
     public void ChangeScene(string sceneName)
     {
         PhotonNetwork.LoadLevel(sceneName);
